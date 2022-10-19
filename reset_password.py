@@ -27,13 +27,15 @@ if authentication_status == None:
     st.warning("Please enter your username and password")
 
 if authentication_status:
-	authenticator.logout("Logout", "sidebar")
-	st.title('Reset Password Template :chart_with_upwards_trend:')
-	try:
-		if authenticator.reset_password(username, 'Reset password'):
-			st.success('Password modified successfully')
-	except Exception as e:
-		st.error(e)
+    authenticator.logout("Logout", "sidebar")
+    try:
+        if authenticator.reset_password(username, 'Reset password'):
+            st.success('Password modified successfully')
+    except Exception as e:
+        st.error(e)
+
+    with open('config.yaml', 'w') as file:
+        yaml.dump(config, file, default_flow_style=False)
 
 # %%
 hide_st_style = """

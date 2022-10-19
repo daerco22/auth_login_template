@@ -1,17 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: JIJLzWvUhh
+  name: auth_main
 credentials:
   usernames:
     gonfreecss:
       email: gonfreecss@gmail.com
       name: Gon Freecss
-      password: $2b$12$pvWW/c9x0DDCFdUKciqMgOsYhkWwNso2nf8At0iU0Reukf3AApjxu
+      password: $2b$12$NsNplsVfALopGpvqhB2L3ehT9pUE0JzfAiCP66G1GF4NAswaac3gi
     killuazoldyck:
       email: killuazoldyck@gmail.com
       name: Killua Zoldyck
-      password: $2b$12$cZS9aY/jCHuM1ivD74c8YO0a3nuDUlt4CXSR3k3091WRjjdZH8gPe
-cookie:
-  expiry_days: 30
-  key: JIJLzWvUhh
-  name: auth_main
+      password: $2b$12$92Xwx4YVwcTMRaofOE1eD.o/m8Gfxhk2yNDpHIXKAYLa8sO5M98WK
 preauthorized:
   emails:
   - ginfreecss@gmail.com
